@@ -12,5 +12,24 @@
   </body>
   <script>
     // Place your code below this line, before the closing script tag
+
+    const logHi = function () {
+      console.log(`Hi!`);
+    };
+
+    logHi();
+
+    const alertHi = function (){
+      alert(`Hi`);
+    };
+    //alertHi();
+
+    const checkFirst = function () {
+      const answer = prompt(`Does the user want a hi?`);
+      if (answer === "yes") {
+        alert(`Hi`);
+      }
+    };
+    checkFirst();
   </script>
 </html>
